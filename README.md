@@ -44,6 +44,16 @@ This project demonstrates the practical application of Embedded C programming, m
   <img src="image8.jpeg" width="250"/>
 </p>
 
+
+## Demo Videos
+
+  <p float="left">
+  <img src="video1.gif" width="500"/>
+  <img src="video3.gif" width="500"/>
+  <img src="video2.gif" width="500"/>
+</p>
+
+
 ## Features
 - Touch-based device control
 - Password-protected access
@@ -93,7 +103,7 @@ This project demonstrates the practical application of Embedded C programming, m
 ## Project Structure
 
 ```text
-Touch-Based-Device-Control-System
+Touch-Based-Device-Control-System/
 │
 ├── projectmain.c
 ├── devices.c
@@ -117,7 +127,28 @@ Touch-Based-Device-Control-System
 ├── pinconnectblock.c
 ├── pinconnectblock.h
 ├── types.h
+│
 ├── block_diagram.png
+│
+├── images/
+│   ├── image1.jpeg
+│   ├── image2.jpeg
+│   ├── image3.jpeg
+│   ├── image4.jpeg
+│   ├── image5.jpeg
+│   ├── image6.jpeg
+│   ├── image7.jpeg
+│   ├── image8.jpeg
+│   ├── image9.jpeg
+│   ├── image10.jpeg
+│   ├── image11.jpeg
+│   └── image12.jpeg
+│
+├── videos/
+│   ├── video1.gif
+│   ├── video2.gif
+│   └── video3.gif
+│ 
 └── README.md
 ```
 
@@ -145,3 +176,26 @@ Touch-Based-Device-Control-System
 - Interrupt Programming
 
 
+## 🎯 Project Outcomes
+
+- Developed a **Touch-Based Device Control System** using Embedded C.
+- Implemented **user input handling** through keypad/touch interface for device control.
+- Added **secure password authentication** to prevent unauthorized access.
+- Integrated **LCD display module** for real-time system messages and feedback.
+- Enabled communication between multiple peripherals like **LCD, keypad, SPI, and interrupts**.
+- Designed an **interrupt-driven system** to improve efficiency and responsiveness.
+- Achieved modular code structure by separating functionalities into different `.c` and `.h` files.
+- Ensured reliable input processing and accurate device control operations.
+- Strengthened understanding of embedded system concepts such as **I/O interfacing, SPI communication, and interrupt handling**.
+- Built a scalable foundation for applications like **home automation and smart control systems**.
+
+---
+
+
+## 🏁 Conclusion
+
+The **Touch-Based Device Control System** was successfully designed and implemented using Embedded C. The system provides a secure and efficient way to control devices through a keypad/touch interface with real-time feedback displayed on an LCD.
+
+The project effectively integrates multiple embedded components such as LCD, keypad, SPI communication, and interrupt handling, ensuring smooth and reliable operation. The implementation of a password-based authentication system enhances security by restricting unauthorized access.
+
+Overall, this project helped in gaining practical knowledge of embedded systems concepts including hardware interfacing, modular programming, and interrupt-driven design. It also demonstrates how such a system can be extended for real-world applications like home automation and smart device control systems.
