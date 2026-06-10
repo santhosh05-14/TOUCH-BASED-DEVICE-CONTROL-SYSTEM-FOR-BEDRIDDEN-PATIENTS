@@ -17,12 +17,32 @@ This project demonstrates the practical application of Embedded C programming, m
   <img src="block_diagram.png" alt="Block Diagram" width="800">
 </p>
 
+
 ## Project Images
 
-<img src="images/img1.jpg" width="300">
-<img src="images/img2.jpg" width="300">
-<img src="images/img3.jpg" width="300">
-<img src="images/img4.jpg" width="300">
+<p float="left">
+  <img src="image2.jpeg" width="250"/>
+  <img src="image12.jpeg" width="250"/>
+  <img src="image3.jpeg" width="250"/>
+</p>
+
+<p float="left">
+  <img src="image5.jpeg" width="250"/>
+  <img src="image1.jpeg" width="250"/>
+  <img src="image4.jpeg" width="250"/>
+</p>
+
+<p float="left">
+  <img src="image10.jpeg" width="250"/>
+  <img src="image11.jpeg" width="250"/>
+  <img src="image9.jpeg" width="250"/>
+</p>
+
+<p float="left">
+  <img src="image6.jpeg" width="250"/>
+  <img src="image7.jpeg" width="250"/>
+  <img src="image8.jpeg" width="250"/>
+</p>
 
 ## Features
 - Touch-based device control
