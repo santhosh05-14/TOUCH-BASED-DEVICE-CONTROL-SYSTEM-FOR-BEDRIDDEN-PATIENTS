@@ -17,6 +17,13 @@ This project demonstrates the practical application of Embedded C programming, m
   <img src="block_diagram.png" alt="Block Diagram" width="800">
 </p>
 
+## Project Images
+
+<img src="images/img1.jpg" width="300">
+<img src="images/img2.jpg" width="300">
+<img src="images/img3.jpg" width="300">
+<img src="images/img4.jpg" width="300">
+
 ## Features
 - Touch-based device control
 - Password-protected access
