@@ -66,9 +66,11 @@ This project demonstrates the practical application of Embedded C programming, m
 ## Project Structure
 
 ```text
-Touch-Based-Device-Control-System/
+Touch-Based-Device-Control-System
 │
-├── main.c
+├── projectmain.c
+├── devices.c
+├── devices.h
 ├── lcd.c
 ├── lcd.h
 ├── kpm.c
@@ -88,6 +90,7 @@ Touch-Based-Device-Control-System/
 ├── pinconnectblock.c
 ├── pinconnectblock.h
 ├── types.h
+├── block_diagram.png
 └── README.md
 ```
 
