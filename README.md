@@ -10,45 +10,12 @@ The touch screen acts as the primary input device, allowing patients to turn con
 
 This project demonstrates the practical application of Embedded C programming, microcontroller interfacing, SPI communication, UART communication, EEPROM memory management, interrupt handling, and human-machine interface design. The proposed system can be deployed in hospitals, rehabilitation centers, elderly care facilities, and smart home environments to provide greater convenience, accessibility, and autonomy for physically challenged and bedridden individuals.
 
+
 ## Block Diagram
 
-```text
-                    +----------------------+
-                    |     Touch Screen     |
-                    +----------+-----------+
-                               |
-                               v
-                    +----------------------+
-                    |      LPC2124         |
-                    | ARM7 Microcontroller |
-                    +----------+-----------+
-                               |
-        +----------------------+----------------------+
-        |                      |                      |
-        v                      v                      v
-+---------------+    +----------------+    +----------------+
-| 4x4 Keypad    |    | 16x2 LCD       |    | SPI EEPROM     |
-| Password Entry|    | User Display   |    | Password Store |
-+---------------+    +----------------+    +----------------+
-                               |
-                               v
-                    +----------------------+
-                    | Password Validation  |
-                    +----------+-----------+
-                               |
-                               v
-                    +----------------------+
-                    | Device Control Unit  |
-                    +----------+-----------+
-                               |
-          +--------------------+--------------------+
-          |                    |                    |
-          v                    v                    v
-   +-------------+     +-------------+     +-------------+
-   |  Device 1   |     |  Device 2   |     |  Device 3   |
-   |    LED      |     |    LED      |     |   Buzzer    |
-   +-------------+     +-------------+     +-------------+
-```
+<p align="center">
+  <img src="block_diagram.png" alt="Block Diagram" width="800">
+</p>
 
 ## Features
 - Touch-based device control
