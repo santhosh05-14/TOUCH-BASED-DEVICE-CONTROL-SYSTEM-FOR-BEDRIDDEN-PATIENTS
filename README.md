@@ -176,7 +176,7 @@ Touch-Based-Device-Control-System/
 - Interrupt Programming
 
 
-## 🎯 Project Outcomes
+## Project Outcomes
 
 - Developed a **Touch-Based Device Control System** using Embedded C.
 - Implemented **user input handling** through keypad/touch interface for device control.
@@ -192,7 +192,7 @@ Touch-Based-Device-Control-System/
 ---
 
 
-## 🏁 Conclusion
+## Conclusion
 
 The **Touch-Based Device Control System** was successfully designed and implemented using Embedded C. The system provides a secure and efficient way to control devices through a keypad/touch interface with real-time feedback displayed on an LCD.
 
