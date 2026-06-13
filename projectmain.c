@@ -1,3 +1,22 @@
+/*
+ * projectmain.c
+ *
+ * Description:
+ * -------------
+ * This is the main application file of the Touch-Based Device Control
+ * System for Bedridden Patients.
+ *
+ * Responsibilities:
+ * - Initializes all peripherals (LCD, UART, SPI, Keypad).
+ * - Enables external interrupt for password update.
+ * - Verifies touch screen connectivity.
+ * - Handles password authentication.
+ * - Reads touch coordinates received through UART.
+ * - Maps touch coordinates to predefined touch regions.
+ * - Controls connected devices (LEDs and Buzzer).
+ * - Manages touch screen enable/disable functionality.
+ * - Continuously monitors user interactions.
+ */
 #include <LPC21XX.H>
 #include<string.h>
 #include "devices.h"
@@ -10,21 +29,43 @@
 #include "types.h"
 #include "password.h"
 #include "interrupts.h"
-extern int touchenable;
-extern int touchflag1; 
-extern int touchflag2;
-extern int touchflag3;
-extern int touchflag4;
-extern char str[25];
-extern char x[10],y[10],z[10];
-extern char ch,dummy;
-extern unsigned int i,r_flag;
-extern u8 keyvalue;
-extern u8 entered_pass[5];
-extern u8 stored_pass[6];
-extern u8 pass1[5];
-extern u8 pass2[5];
 
+/* Touch screen enable flag
+ * 0 -> Touch disabled
+ * 1 -> Touch enabled
+ */
+extern int touchenable;
+
+/* Device status flags */
+extern int touchflag1;   // Device 1 ON/OFF status
+extern int touchflag2;   // Device 2 ON/OFF status
+extern int touchflag3;   // Device 3 ON/OFF status
+extern int touchflag4;   // Reserved for future device
+
+/* UART receive buffer */
+extern char str[25];
+
+/* Stores extracted touch coordinates */
+extern char x[10];       // X-coordinate string
+extern char y[10];       // Y-coordinate string
+extern char z[10];       // Z-coordinate string
+
+/* UART communication variables */
+extern char ch;          // Received character
+extern char dummy;       // Dummy variable for UART handling
+
+/* UART receive control variables */
+extern unsigned int i;       // Buffer index
+extern unsigned int r_flag;  // Data reception flag
+
+/* Keypad related variables */
+extern u8 keyvalue;          // Key pressed by user
+
+/* Password handling variables */
+extern u8 entered_pass[5];   // User entered password
+extern u8 stored_pass[6];    // Password stored in EEPROM
+extern u8 pass1[5];          // New password
+extern u8 pass2[5];          // Confirm password
 /* Main function */
 int main()
 {
