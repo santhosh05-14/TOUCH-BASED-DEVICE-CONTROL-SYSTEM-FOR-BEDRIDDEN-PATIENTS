@@ -107,11 +107,10 @@ https://drive.google.com/drive/folders/1PEEHIhly84znwjvupmyLy4uzsm6-apf1?usp=dri
 
 ---
 
-
 ## Conclusion
-
-The **Touch-Based Device Control System** was successfully designed and implemented using Embedded C. The system provides a secure and efficient way to control devices through a keypad/touch interface with real-time feedback displayed on an LCD.
-
-The project effectively integrates multiple embedded components such as LCD, keypad, SPI communication, and interrupt handling, ensuring smooth and reliable operation. The implementation of a password-based authentication system enhances security by restricting unauthorized access.
-
-Overall, this project helped in gaining practical knowledge of embedded systems concepts including hardware interfacing, modular programming, and interrupt-driven design. It also demonstrates how such a system can be extended for real-world applications like home automation and smart device control systems.
+- Successfully developed a touch-based device control system using Embedded C.
+- Ensures secure access through password authentication.
+- Provides user-friendly device control with LCD feedback.
+- Demonstrates SPI communication, EEPROM interfacing, and interrupt handling.
+- Enhances accessibility and independence for bedridden patients.
+- Suitable for future smart healthcare and home automation applications.
