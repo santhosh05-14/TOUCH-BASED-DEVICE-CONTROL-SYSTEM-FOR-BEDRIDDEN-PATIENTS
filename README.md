@@ -18,40 +18,9 @@ This project demonstrates the practical application of Embedded C programming, m
 </p>
 
 
-## Project Images
+## Project Images And Videos
 
-<p float="left">
-  <img src="image2.jpeg" width="250"/>
-  <img src="image12.jpeg" width="250"/>
-  <img src="image3.jpeg" width="250"/>
-</p>
-
-<p float="left">
-  <img src="image5.jpeg" width="250"/>
-  <img src="image1.jpeg" width="250"/>
-  <img src="image4.jpeg" width="250"/>
-</p>
-
-<p float="left">
-  <img src="image10.jpeg" width="250"/>
-  <img src="image11.jpeg" width="250"/>
-  <img src="image9.jpeg" width="250"/>
-</p>
-
-<p float="left">
-  <img src="image6.jpeg" width="250"/>
-  <img src="image7.jpeg" width="250"/>
-  <img src="image8.jpeg" width="250"/>
-</p>
-
-
-## Demo Videos
-
-  <p float="left">
-  <img src="video1.gif" width="500"/>
-  <img src="video3.gif" width="500"/>
-  <img src="video2.gif" width="500"/>
-</p>
+https://drive.google.com/drive/folders/1PEEHIhly84znwjvupmyLy4uzsm6-apf1?usp=drive_link
 
 
 ## Features
