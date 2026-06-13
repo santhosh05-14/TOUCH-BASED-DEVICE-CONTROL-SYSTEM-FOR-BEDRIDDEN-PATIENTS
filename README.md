@@ -14,7 +14,7 @@ This project demonstrates the practical application of Embedded C programming, m
 ## Block Diagram
 
 <p align="center">
-  <img src="block_diagram.png" alt="Block Diagram" width="800">
+  <img src="block_diagram.png" alt="Block Diagram" width="500">
 </p>
 
 
