@@ -1,15 +1,16 @@
 # Touch-Based Device Control System for Bedridden Patients
 
 ## Overview
-
-The **Touch-Based Device Control System for Bedridden Patients** is an assistive embedded system designed to improve the independence and quality of life of patients with limited mobility. The system enables users to control essential electronic devices through a simple touch-based interface, eliminating the need for physical movement or external assistance.
-
-Built around the **LPC2124 ARM7 Microcontroller**, the system integrates a touch screen, LCD display, keypad, EEPROM memory, and multiple output devices to provide a secure and user-friendly control environment. To prevent unauthorized access, the system incorporates a password authentication mechanism where user credentials are securely stored in EEPROM through SPI communication. Only authenticated users can access the device control interface.
-
-The touch screen acts as the primary input device, allowing patients to turn connected devices ON or OFF with a simple touch. Real-time system status and user instructions are displayed on the LCD, ensuring ease of operation. The keypad is used for password entry and password modification, while an interrupt-driven mechanism enables secure password updates without disrupting normal system functionality.
-
-This project demonstrates the practical application of Embedded C programming, microcontroller interfacing, SPI communication, UART communication, EEPROM memory management, interrupt handling, and human-machine interface design. The proposed system can be deployed in hospitals, rehabilitation centers, elderly care facilities, and smart home environments to provide greater convenience, accessibility, and autonomy for physically challenged and bedridden individuals.
-
+- Enables bedridden patients to control electronic devices using a touch-based interface.
+- Developed using the LPC2124 ARM7 Microcontroller.
+- Provides secure access through password authentication.
+- Stores user credentials in EEPROM via SPI communication.
+- Allows device ON/OFF control through a touch screen.
+- Displays system status and user instructions on an LCD.
+- Supports password entry and modification using a keypad.
+- Implements interrupt-based password update functionality.
+- Demonstrates Embedded C programming, UART, SPI, EEPROM interfacing, and interrupt handling.
+- Improves convenience, accessibility, and independence for physically challenged individuals.
 
 ## Block Diagram
 
@@ -98,25 +99,6 @@ Touch-Based-Device-Control-System/
 ├── types.h
 │
 ├── block_diagram.png
-│
-├── images/
-│   ├── image1.jpeg
-│   ├── image2.jpeg
-│   ├── image3.jpeg
-│   ├── image4.jpeg
-│   ├── image5.jpeg
-│   ├── image6.jpeg
-│   ├── image7.jpeg
-│   ├── image8.jpeg
-│   ├── image9.jpeg
-│   ├── image10.jpeg
-│   ├── image11.jpeg
-│   └── image12.jpeg
-│
-├── videos/
-│   ├── video1.gif
-│   ├── video2.gif
-│   └── video3.gif
 │ 
 └── README.md
 ```
